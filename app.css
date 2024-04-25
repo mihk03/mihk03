@@ -121,6 +121,7 @@ h4{
 
 /* FORMS */
 form {
+  color: black;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -128,6 +129,7 @@ form {
 }
 
 input {
+  color: black;
   margin-bottom: 1rem;
   width: 100%; /* Adjusted width to fill the available space */
   padding: 1rem; /* Reduced padding for better fit on mobile */
@@ -149,3 +151,4 @@ input::placeholder {
 #question.incorrect {
   color: red; /* Display the text in red */
 }
+
